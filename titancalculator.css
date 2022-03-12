@@ -1,0 +1,149 @@
+/* Titan Calculator Style */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.logo{
+  
+    text-align: center;
+   
+}
+
+.container{
+    
+    /* Tela inteira port width */
+    max-width: 100vw;
+    max-height: 100vh;   
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+   
+}
+
+.containerbox{
+
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    background-image: url("/img/fundo\ calculadora.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+section.tela{
+
+    top: 58px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 150px;
+    border-radius: .60rem;
+
+}
+
+section.botoes{
+    
+    position:sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    top: 370px;
+    
+    
+
+}
+
+.limpar{
+    display: inline-block;
+    position:absolute;
+        top: 320px;
+        height: 70px;
+        width: 100%;
+        padding: 1rem;
+    
+    font-size: 1.5rem;
+}
+
+.igualdade{
+    
+    display: inline-block;
+    position:absolute;
+        top: 252px;
+        height: 70px;
+        width: 100%;
+        padding: 1rem;
+    
+    font-size: 1.5rem;
+    
+    
+}
+
+.buttons{
+    padding: 1rem;
+    
+    font-size: 1.5rem;
+    font-family: Exon Regular;
+}
+
+.buttons:hover{
+    background-image: url("/img/espada\ menor.png");
+
+}
+
+.igualdade:hover{
+    background-image: url("/img/espada\ menor.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.limpar:hover{
+    background-image: url("/img/espada\ menor.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+body{
+
+    background-image: url("/img/versão\ azulada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+    word-break: break-all;
+    font-family: Exon Regular;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
